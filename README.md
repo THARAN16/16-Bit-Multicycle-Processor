@@ -8,14 +8,14 @@
 
 > A custom multi-cycle RISC architecture optimized for low power and high speed using Reversible Gates, Operand Isolation, and 3 Stage pipelined Booth MAC.
 
-## 📖 Overview
+## Overview
 This project details the design and implementation of a 16-bit multicycle processor optimized to overcome traditional static and dynamic power losses. Bypassing standard-cell datapaths, the execution core relies on a combination of **Reversible Logic Gates** (respecting Landauer's principle to reduce power dissipation) and **Leading Zero Detection (LZD)** for dynamic operand isolation. 
 
 The architecture integrates this adaptive operand-isolated datapath with a high-speed Radix-4 Booth multiplier. Furthermore, it includes a custom Hardware Debugging Wrapper via Xilinx Virtual Input/Output (VIO), allowing for real-time validation and manual execution control directly on the **Artix-7 Nexys Video FPGA Board**.
 
 ---
 
-## 📊 Performance Improvements (Artix-7 Synthesis)
+## Performance Improvements (Artix-7 Synthesis)
 
 Based on post-implementation synthesis on the Artix-7 FPGA, the proposed architecture yields massive improvements over conventional RISC designs. 
 
@@ -31,7 +31,7 @@ Based on post-implementation synthesis on the Artix-7 FPGA, the proposed archite
 
 ---
 
-## 🛠️ Core Innovations (Click to Expand)
+##  Core Innovations (Click to Expand)
 
 <details>
 <summary><b>1. Adaptive ALU with Reversible Logic</b></summary>
@@ -72,7 +72,7 @@ Integrated with Xilinx VIO for on-chip testing.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 | File | Description |
 | :--- | :--- |
@@ -88,7 +88,7 @@ Integrated with Xilinx VIO for on-chip testing.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone this repository.
 2. Open **Xilinx Vivado** and create a new RTL project.
@@ -99,5 +99,5 @@ Integrated with Xilinx VIO for on-chip testing.
 
 ---
 
-## 👨‍💻 RTL and Verification
+## RTL and Verification
 **THARAN S M**
